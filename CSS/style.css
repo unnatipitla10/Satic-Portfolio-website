@@ -485,6 +485,10 @@ gap:30px;
   background:#3a8cff;
 }
 
+.company-tabs .active:hover{
+  background-color:#2c74d8 ;
+}
+
 /* CARD HEADER */
 
 .card-header{
