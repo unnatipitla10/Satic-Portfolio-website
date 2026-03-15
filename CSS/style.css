@@ -328,6 +328,10 @@ gap:30px;
   font-size:13px;
 }
 
+.demo-btn:hover{
+  background-color: #3a8cff;
+}
+
 /* RESPONSIVE */
 
 @media(max-width:1000px){
@@ -647,6 +651,10 @@ gap:30px;
   opacity:0.8;
 }
 
+.footer-col ul a:hover{
+  color:cornflowerblue;
+}
+
 .social-icons{
   display:flex;
   gap:12px;
@@ -681,6 +689,28 @@ gap:30px;
   .contact-form{
     padding:20px;
   }
+}
+
+/* Go-to-top Button */
+#topBtn{
+position:fixed;
+bottom:30px;
+right:30px;
+z-index:99;
+border:none;
+outline:none;
+background-color: blue;
+color:white;
+cursor:pointer;
+padding:12px 15px;
+border-radius:50%;
+font-size:18px;
+display:none;
+transition:0.3s;
+}
+
+#topBtn:hover{
+background-color:#3a8cff;
 }
 
 /* SUCCESS POPUP */
